@@ -1,0 +1,347 @@
+private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
+       
+        char[] arra1 = { 'M', 'I', 'l', ' ', 'T' , 'E', 'C', 'H'};
+  
+        String str1 = new String(arra1);
+        
+        show.setText(str1);
+
+    }//GEN-LAST:event_jButton1MouseClicked
+
+    private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
+       String str1="Mile Tech";
+       show.setText(""+str1.length());
+       
+    }//GEN-LAST:event_jButton2MouseClicked
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+       
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseClicked
+        String str1="Mile Tech";
+        String str2=" Company";
+        
+        String str3= str1.concat(str2);
+        show.setText(str3);
+    }//GEN-LAST:event_jButton3MouseClicked
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseClicked
+        String str1="Mile Tech Company";
+     
+       
+        show.setText(""+str1.charAt(5));
+    }//GEN-LAST:event_jButton4MouseClicked
+
+    private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
+         String Str = "protect your content, yourx photos, images  or pictures with watermark. Create effective watermarks";
+         String subStr = "photos";
+       //  "Protect your content, your" 
+ 
+        show.setText(""+ Str.indexOf('h') );
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+ Str.length() + "  " +  Str.indexOf('w', Str.length()-11) );    
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+ Str.indexOf(subStr)); 
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+ Str.indexOf(subStr, 16) );  
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+ Str.indexOf('x') ); 
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+ Str.indexOf('@') );  
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+ Str.indexOf("man") );     
+        
+        
+        
+    }//GEN-LAST:event_jButton5MouseClicked
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton6MouseClicked
+         
+         String Str = "Protect your content, your photos, images  or pictures with watermark. Create effective watermarksn";
+         String subStr = "photos";
+ 
+        show.setText(""+Str.lastIndexOf('n') );
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+ Str.lastIndexOf('n', 18) );    
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+ Str.lastIndexOf(subStr)); 
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+ Str.lastIndexOf(subStr, 22) );  
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+ Str.lastIndexOf('@') ); 
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+ Str.lastIndexOf('x') );  
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+ Str.lastIndexOf("man") );     
+        
+    }//GEN-LAST:event_jButton6MouseClicked
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton7MouseClicked
+        String Str = "Protect your content, your photos, images  or pictures with watermark. Create effective watermarks";
+         String s1 = "Photos";
+          String s2 = "and";
+ 
+        show.setText(""+Str.contains(s1) );
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+ Str.contains(s2) );   
+    }//GEN-LAST:event_jButton7MouseClicked
+
+    private void jButton8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton8MouseClicked
+       String Str = "Protect your content, your photos, images  or pictures with watermark. Create effective watermarks";
+       
+ 
+        show.setText(""+ Str.substring(13) );
+        show.setText(show.getText()+"\n");
+        show.setText(show.getText()+Str.substring(13, 20) );  
+        
+        
+       
+    }//GEN-LAST:event_jButton8MouseClicked
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton9MouseClicked
+        String Str = "Protect your content, your photos, images  or pictures with watermark. Create effective watermarks";
+       
+ 
+        show.setText(""+ Str.subSequence(13, 22) );
+       
+    }//GEN-LAST:event_jButton9MouseClicked
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton10MouseClicked
+      
+         String Str = "Protect-your-content,-your-photos,-images";
+        String[] parts = Str.split("-");
+      int i = 0;
+        while( i < parts.length ) {
+            show.setText(show.getText()+  parts[i]+"\n" );
+            i++;
+        }
+
+        
+       
+        
+    }//GEN-LAST:event_jButton10MouseClicked
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton11MouseClicked
+          String Str = "Protect-your-content,-your-photos,-images";
+        String[] parts = Str.split("-");
+     
+       for( String part : parts ) {
+            show.setText(show.getText()+  part+"\n" );
+          
+        }
+
+    }//GEN-LAST:event_jButton11MouseClicked
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton12MouseClicked
+         
+        String Str = "Protect your content, your-photos, images";
+        String[] parts = Str.split(" ");
+       show.setText( parts[0]+"\n" ); 
+        show.setText(show.getText()+ parts[1]+"\n" ); 
+         show.setText(show.getText()+parts[2]+"\n" ); 
+          show.setText(show.getText()+ parts[3]+"\n" ); 
+           show.setText(show.getText()+ parts[4]+"\n" ); 
+            show.setText(show.getText()+ parts[5]+"\n" ); 
+    
+ 
+       
+        
+    }//GEN-LAST:event_jButton12MouseClicked
+
+    private void jButton13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton13MouseClicked
+       
+            String Str = "Protect-your-content,-your-photos,-images";
+        String[] parts = Str.split("-",3);
+     
+       for( String part : parts ) {
+            show.setText(show.getText()+  part+"\n" );
+          
+        }
+    }//GEN-LAST:event_jButton13MouseClicked
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton14MouseClicked
+           String Str = "Protect-your-content,-your-photos,-images";
+          
+        show.setText(Str.replace('t', 'X') +"\n"); 
+         show.setText(show.getText()+Str.replace('-', ' ')+"\n" ); 
+          show.setText(show.getText()+Str.replace("content", "US")+"\n" ); 
+       
+    }//GEN-LAST:event_jButton14MouseClicked
+
+    private void jButton15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton15MouseClicked
+       String Str = "Protect784-your-content3363,-your-photos1251,-images";
+          
+        show.setText(Str.replaceAll("your", "US") +"\n"); 
+        
+       String strWithOutNumbers = Str.replaceAll("[0-9]+", "  ");
+        show.setText(show.getText()+strWithOutNumbers+"\n" ); 
+         
+        String strOnlyNumbers = Str.replaceAll("[a-zA-Z]+", "");
+          show.setText(show.getText()+strOnlyNumbers+"\n" ); 
+    }//GEN-LAST:event_jButton15MouseClicked
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton16MouseClicked
+         String Str = "Protect784 your content3363, your photos1251, images";
+          
+        show.setText(Str.replaceFirst(" ", "-")+"\n"); 
+        
+       String strWithOutNumbers = Str.replaceFirst("[0-9]+", "");
+        show.setText(show.getText()+strWithOutNumbers+"\n" ); 
+         
+        String strOnlyNumbers = Str.replaceFirst("[a-zA-Z]+", "");
+          show.setText(show.getText()+strOnlyNumbers+"\n" ); 
+    }//GEN-LAST:event_jButton16MouseClicked
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton17MouseClicked
+        String Str = "Protect-your-content,-your-photos,-images";
+      
+    
+        show.setText(show.getText()+ Str.startsWith("Protect")+"\n" ); 
+         show.setText(show.getText()+Str.startsWith("Pr")+"\n" ); 
+          show.setText(show.getText()+ Str.startsWith("your")+"\n" ); 
+           show.setText(show.getText()+ Str.startsWith("your",8)+"\n" ); 
+            show.setText(show.getText()+ Str.startsWith(" ")+"\n" ); 
+        
+       
+        
+    }//GEN-LAST:event_jButton17MouseClicked
+
+    private void jButton18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton18MouseClicked
+         String Str = "Protect-your-content,-your-photos,-images";
+      
+        show.setText(show.getText()+ Str.endsWith("image")+"\n" ); 
+         show.setText(show.getText()+Str.endsWith("s")+"\n" ); 
+          show.setText(show.getText()+ Str.endsWith(" ")+"\n" ); 
+    }//GEN-LAST:event_jButton18MouseClicked
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton19MouseClicked
+        String s1 = "Protect-your-content,-your-photos,-images";
+         String s4 = "Protect-your-content,-your-photos,-image";
+        String s2 = s1;
+        String s3 = "at 20 years old";
+
+        show.setText(show.getText()+ s1.equals(s4)+"\n" ); 
+         show.setText(show.getText()+s1.equals(s3)+"\n" ); 
+    }//GEN-LAST:event_jButton19MouseClicked
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton19ActionPerformed
+
+    private void jButton20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton20MouseClicked
+        String s1 = "MILE TECH COMPANY";
+        String s2 = "mile tech company";
+        String s3 = s2;
+
+        show.setText(show.getText()+ s1.equalsIgnoreCase(s2)+"\n" ); 
+         show.setText(show.getText()+s2.equalsIgnoreCase(s3)+"\n" ); 
+    }//GEN-LAST:event_jButton20MouseClicked
+
+    private void jButton21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton21MouseClicked
+          
+         String s1 = "mile tech company";
+         StringBuffer sb1 = new StringBuffer("mile tech company tedt");
+         
+       StringBuffer sb2 = new StringBuffer("mile tech companys");
+
+        show.setText(show.getText()+ s1.contentEquals(sb1)+"\n" ); 
+         show.setText(show.getText()+s1.contentEquals(sb2)+"\n" ); 
+        
+    }//GEN-LAST:event_jButton21MouseClicked
+
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void jButton22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton22MouseClicked
+         
+        String s1 = "Protect-your-content,-your";
+        String s2 = "Protect-nour-content";
+        String s3 = s1;
+
+        show.setText(show.getText()+ s1.compareTo(s2)+"\n" ); 
+         show.setText(show.getText()+s2.compareTo(s1)+"\n" ); 
+          show.setText(show.getText()+s1.compareTo(s3)+"\n" ); 
+    }//GEN-LAST:event_jButton22MouseClicked
+
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void jButton23MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton23MouseClicked
+      String s1 = "Protect-your-content,-your";
+      String s2 = "Protect-Your-content ";
+      String s3 = s1;
+
+      show.setText(show.getText()+s1.compareToIgnoreCase(s2)+"\n" ); 
+      show.setText(show.getText()+s2.compareToIgnoreCase(s1)+"\n" ); 
+      show.setText(show.getText()+s1.compareToIgnoreCase(s3)+"\n" );
+    }//GEN-LAST:event_jButton23MouseClicked
+
+    private void jButton24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton24MouseClicked
+      String str  = "Protect your content";
+    
+
+      show.setText(show.getText()+ str.matches("your")+"\n" ); 
+      show.setText(show.getText()+str.matches("(.*)content")+"\n" ); 
+      show.setText(show.getText()+str.matches("(.*)your(.*)")+"\n" );
+    }//GEN-LAST:event_jButton24MouseClicked
+
+    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton24ActionPerformed
+
+    private void jButton25MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton25MouseClicked
+      String s1 = "Protect your content";
+      String s2 = "your";
+      String s3 = "YOUR";
+
+      show.setText(show.getText()+ s1.regionMatches(8,s2,0,4)+"\n" ); 
+      show.setText(show.getText()+s1.regionMatches(8,s3,0,4)+"\n" ); 
+      show.setText(show.getText()+s1.regionMatches(true,8,s3,0,4)+"\n" );
+    }//GEN-LAST:event_jButton25MouseClicked
